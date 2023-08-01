@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de areas</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="input-field">
+          <label for="shape">Selecciona una forma:</label>
+          <select id="shape">
+            <option value="square">Cuadrado</option>
+            <option value="rectangle">Rectángulo</option>
+            <option value="triangle">Triángulo</option>
+            <option value="circle">Círculo</option>
+          </select>
+        </div>
+        <div class="input-field">
+          <label for="input1">Lado/Base:</label>
+          <input type="number" id="input1" />
+        </div>
+        <div class="input-field">
+          <label for="input2">Altura:</label>
+          <input type="number" id="input2" />
+        </div>
+        <div class="input-field">
+          <label for="input3">Radio:</label>
+          <input type="number" id="input3" />
+        </div>
+        <button class="calculate-btn" onclick="calculateArea()">Calcular</button>
+        <div class="result" id="result"></div>
+      </div>
+</body>
+</html>

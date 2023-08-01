@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converciones</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Conversión de Unidades</h1>
+        <h2>Masa</h2>
+        <input type="number" id="inputMasa" placeholder="Ingrese la cantidad">
+        <select id="selectMasaFrom">
+          <option value="kg">Kilogramos (kg)</option>
+          <option value="g">Gramos (g)</option>
+          <option value="lb">Libras (lb)</option>
+          <option value="oz">Onzas (oz)</option>
+        </select>
+        <h2>Informática</h2>
+        <input type="number" id="inputInformatica" placeholder="Ingrese la cantidad">
+        <select id="selectInformaticaFrom">
+          <option value="b">Bits (b)</option>
+          <option value="B">Bytes (B)</option>
+          <option value="Kb">Kilobits (Kb)</option>
+          <option value="KB">Kilobytes (KB)</option>
+          <option value="Mb">Megabits (Mb)</option>
+          <option value="MB">Megabytes (MB)</option>
+          <option value="Gb">Gigabits (Gb)</option>
+          <option value="GB">Gigabytes (GB)</option>
+        </select>
+        <button onclick="convertir()">Convertir</button>
+        <div id="result"></div>
+      </div>
+      <script src="main5.js"></script>
+</body>
+</html>
